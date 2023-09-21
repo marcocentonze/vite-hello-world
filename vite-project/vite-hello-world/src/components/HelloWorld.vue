@@ -2,23 +2,17 @@
 export default {
   data() {
     return {
-      msg :"Hello World"
-        }
+      msg: 'Hello Vite!'
+
+    }
   }
 }
-
-
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-
-
-
+  <h1 class="text-danger">{{ msg }}</h1>
 </template>
 
 <style scoped>
-.read-the-docs {
-  color: #888;
-}
+
 </style>
